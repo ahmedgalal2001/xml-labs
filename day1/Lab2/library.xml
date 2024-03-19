@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/Lab2/style.css"?>
+<library>
+    <location>New York Public Library</location>
+    <description>A historic library located in New York City.</description>
+    <librarian>
+        <name>Ahmed Galal</name>
+        <email>ahmedgalal@gmail.com</email>
+    </librarian>
+    <books>
+        <book>
+            <title>The Great Gatsby</title>
+            <isbn>9780142437504</isbn>
+            <author>F. Scott Fitzgerald</author>
+            <preface>
+                <content>Introduction to the story.</content>
+            </preface>
+            <parts>
+                <part>
+                    <title>Part 1</title>
+                    <chapters>
+                        <chapter>
+                            <title>Chapter 1</title>
+                            <summary>Summary of Chapter 1.</summary>
+                            <sections>
+                                <section>
+                                    <paragraph>First section of Chapter 1.</paragraph>
+                                </section>
+                                <section>
+                                    <paragraph>Second section of Chapter 1.</paragraph>
+                                </section>
+                            </sections>
+                        </chapter>
+                        <!-- More chapters within Part 1 -->
+                    </chapters>
+                </part>
+                <!-- More parts of the book -->
+            </parts>
+        </book>
+        <!-- More books in the library -->
+    </books>
+</library>

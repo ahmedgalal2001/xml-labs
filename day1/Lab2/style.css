@@ -1,0 +1,124 @@
+/* Style for the library */
+library {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Style for location */
+library > location {
+  font-weight: bold;
+}
+
+/* Style for description */
+library > description {
+  margin-bottom: 10px;
+}
+
+/* Style for librarian */
+library > librarian {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style for librarian's name */
+library > librarian > name {
+  font-weight: bold;
+}
+
+/* Style for books */
+library > books {
+  display: block;
+}
+
+/* Style for book */
+library > books > book {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Style for book title */
+library > books > book > title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* Style for book author */
+library > books > book > author {
+  font-style: italic;
+}
+
+/* Style for preface */
+library > books > book > preface {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style for parts */
+library > books > book > parts {
+  display: block;
+}
+
+/* Style for part */
+library > books > book > parts > part {
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* Style for part title */
+library > books > book > parts > part > title {
+  font-weight: bold;
+}
+
+/* Style for chapters */
+library > books > book > parts > part > chapters {
+  display: block;
+}
+
+/* Style for chapter */
+library > books > book > parts > part > chapters > chapter {
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* Style for chapter title */
+library > books > book > parts > part > chapters > chapter > title {
+  font-weight: bold;
+}
+
+/* Style for chapter summary */
+library > books > book > parts > part > chapters > chapter > summary {
+  font-style: italic;
+}
+
+/* Style for sections */
+library > books > book > parts > part > chapters > chapter > sections {
+  display: block;
+}
+
+/* Style for section */
+library
+  > books
+  > book
+  > parts
+  > part
+  > chapters
+  > chapter
+  > sections
+  > section {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style for paragraph */
+library
+  > books
+  > book
+  > parts
+  > part
+  > chapters
+  > chapter
+  > sections
+  > section
+  > paragraph {
+  margin-left: 20px;
+}
