@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="employe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="./style.css"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./employe.xsd">
+    <employee>
+        <name>John Doe</name>
+        <phones>
+            <phone type="work">123-456-7890</phone>
+            <phone type="mobile">987-654-3210</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>Main Street</street>
+                <building_number>123</building_number>
+                <region>North</region>
+                <city>Cityville</city>
+                <country>Countryland</country>
+            </address>
+        </addresses>
+        <email>john.doe@example.com</email>
+    </employee>
+    <employee>
+        <name>John Doe</name>
+        <phones>
+            <phone type="work">123-456-7890</phone>
+            <phone type="mobile">987-654-3210</phone>
+            <phone type="home">987-654-3210</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>Main Street</street>
+                <building_number>123</building_number>
+                <region>North</region>
+                <city>Cityville</city>
+                <country>Countryland</country>
+            </address>
+        </addresses>
+        <email>john.doe@example.com</email>
+    </employee>
+    <employee>
+        <name>Jane Smith</name>
+        <phones>
+            <phone type="home">111-222-3333</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>First Avenue</street>
+                <building_number>456</building_number>
+                <region>South</region>
+                <city>Townsville</city>
+                <country>Countryland</country>
+            </address>
+            <address>
+                <street>Second Street</street>
+                <building_number>789</building_number>
+                <region>East</region>
+                <city>Villageton</city>
+                <country>Countryland</country>
+            </address>
+        </addresses>
+        <email>jane.smith@example.com</email>
+    </employee>
+</employees>
